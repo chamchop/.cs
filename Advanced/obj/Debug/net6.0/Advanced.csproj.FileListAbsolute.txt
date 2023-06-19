@@ -1,0 +1,15 @@
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.csproj.AssemblyReference.cache
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.AssemblyInfoInputs.cache
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.AssemblyInfo.cs
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.csproj.CoreCompileInputs.cache
+C:\Programming\CSharp\Advanced\Advanced\bin\Debug\net6.0\Advanced.exe
+C:\Programming\CSharp\Advanced\Advanced\bin\Debug\net6.0\Advanced.deps.json
+C:\Programming\CSharp\Advanced\Advanced\bin\Debug\net6.0\Advanced.runtimeconfig.json
+C:\Programming\CSharp\Advanced\Advanced\bin\Debug\net6.0\Advanced.dll
+C:\Programming\CSharp\Advanced\Advanced\bin\Debug\net6.0\Advanced.pdb
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.dll
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\refint\Advanced.dll
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.pdb
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\Advanced.genruntimeconfig.cache
+C:\Programming\CSharp\Advanced\Advanced\obj\Debug\net6.0\ref\Advanced.dll
