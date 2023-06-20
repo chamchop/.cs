@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "La2H+CZ7ybtOHQ5rfX/hXqmv+84h0QRxL3JnvNM+BF9v2UTwysOXmR7ir7Z8MtIJKMwIYO+Vs90WO6x21V0PeA==",
+  "dgSpecHash": "r6X8WDIzDZpYHxBmOuOH+1hnGvtoe4mz1mxE1acoER4M5zg5onZLDl9JlU2C3gbkki26UDD4njP0wkLlwwUahw==",
   "success": true,
   "projectFilePath": "C:\\Programming\\CSharp\\Advanced\\Advanced\\Advanced.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Capta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

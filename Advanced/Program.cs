@@ -1,9 +1,16 @@
-﻿// DELEGATES
+﻿// Collections
+
+Advanced.Collections.Printing.Print();
+
+// EVENTS
+
+/*Advanced.Events.Printing.Print();*/
+
+// DELEGATES
 
 /*Advanced.Delegates.SingleCastDelegate.Print();
 Advanced.Delegates.MulitCastDelegate.Print();*/
 
-Advanced.Events.Printing.Print();
 
 // LINQ
 
