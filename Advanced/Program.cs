@@ -1,6 +1,14 @@
-﻿// Collections
+﻿// Misc
 
-Advanced.Collections.Printing.Print();
+Advanced.Misc.Printing.Print();
+
+// Interfaces
+
+/*Advanced.Interfaces.Printing.Print();*/
+
+// Collections
+
+/*Advanced.Collections.Printing.Print();*/
 
 // EVENTS
 
