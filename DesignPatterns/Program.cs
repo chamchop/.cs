@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿DesignPatterns.Factories.Coordinates.Exe();
+
+DesignPatterns.Builder.Faceted.Execution.Exe();
