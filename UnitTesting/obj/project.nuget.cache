@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XqNx7lnaLkfMI5R/5FxEpRrjNWJIMPPRh9NqJgGNPqr00ueHs4ED3ctP0SEyA98kWC6m1S+udznuAWn+ZC0dCA==",
+  "dgSpecHash": "R1eKLiEeqFkOO+q9V6k8cufLXaZ8YtsCKgj5oMGDxU2I2jxJIMcPdiMRYWT3aYdInArUQ0udftQ2IqinFFe3nA==",
   "success": true,
   "projectFilePath": "C:\\Programming\\CSharp\\Advanced\\UnitTesting\\UnitTesting.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Capta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

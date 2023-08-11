@@ -15,3 +15,6 @@ C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\DesignPatterns.ge
 C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\ref\DesignPatterns.dll
 C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\Autofac.dll
 C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\DesignPatterns.csproj.CopyComplete
+C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\Singleton\Capitals.txt
+C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\MoreLinq.dll
+C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\nunit.framework.dll
