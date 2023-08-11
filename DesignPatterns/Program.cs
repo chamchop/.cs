@@ -1,5 +1,5 @@
-﻿DesignPatterns.Bridge.Rendering.Print();
-
+﻿DesignPatterns.Composite.GraphicObject.Program();
+/*DesignPatterns.Bridge.Rendering.Print();*/
 /*DesignPatterns.Adapter.DIAdapter.Program.Exe();*/
 /*DesignPatterns.Adapter.Exe.Exec();*/
 /*DesignPatterns.Adapter.Execution.Exe();*/
