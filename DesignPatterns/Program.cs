@@ -1,4 +1,6 @@
-﻿DesignPatterns.Adapter.DIAdapter.Program.Exe();
+﻿DesignPatterns.Bridge.Rendering.Print();
+
+/*DesignPatterns.Adapter.DIAdapter.Program.Exe();*/
 /*DesignPatterns.Adapter.Exe.Exec();*/
 /*DesignPatterns.Adapter.Execution.Exe();*/
 /*DesignPatterns.Prototype.SerialisationCopying.Exe();*/
