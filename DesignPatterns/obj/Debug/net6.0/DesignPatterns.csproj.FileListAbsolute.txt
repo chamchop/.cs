@@ -13,3 +13,5 @@ C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\refint\DesignPatt
 C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\DesignPatterns.pdb
 C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\DesignPatterns.genruntimeconfig.cache
 C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\ref\DesignPatterns.dll
+C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\Autofac.dll
+C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\DesignPatterns.csproj.CopyComplete

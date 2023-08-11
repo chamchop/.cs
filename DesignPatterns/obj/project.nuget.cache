@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AcYURv7UigfsTHS4dy0HVZXVMyq79ZNuoToebu/oLqWMiBf02GkkuJ3Z/8pWwhQnQXEUn64VgThxoRUC4h0Axg==",
+  "dgSpecHash": "eUMEZJJXQ2fqKDVfwkhJ0BQPOprRLMCIF0t4oXnuALyeoBXXaLC9+v26PIG5GLIiR7nJrZp7f6sh6XXGROZblQ==",
   "success": true,
   "projectFilePath": "C:\\Programming\\CSharp\\Advanced\\DesignPatterns\\DesignPatterns.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Capta\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

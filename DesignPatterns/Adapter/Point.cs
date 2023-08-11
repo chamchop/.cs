@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections;
+using System.Collections.ObjectModel;
 
 namespace DesignPatterns.Adapter
 {
@@ -78,7 +79,7 @@ namespace DesignPatterns.Adapter
         }
     }
 
-    public class LineToPointAdapter : Collection<Point>
+    public class LineToPointAdapter : IEnumerable<Point>
     {
         private static int count;
 
@@ -86,7 +87,10 @@ namespace DesignPatterns.Adapter
 
         public LineToPointAdapter(Line line)
         {
-            var has = line.GetHashCode();
+            var hash = line.GetHashCode();
+            if (cache.ContainsKey(hash)) return;
+
+            var points = new List<Point>();
 
             Console.WriteLine($"{++count}: Generating points for line [{line.Start.x},{line.Start.y}]-[{line.End.x},{line.End.y}]");
 
@@ -101,7 +105,7 @@ namespace DesignPatterns.Adapter
             {
                 for (int y = top; y <= bottom; ++y)
                 {
-                    Add(new Point(left, y));
+                    points.Add(new Point(left, y));
                 }
             }
 
@@ -109,9 +113,21 @@ namespace DesignPatterns.Adapter
             {
                 for (int x = left; x <= right; ++x)
                 {
-                    Add(new Point(x, top));
+                    points.Add(new Point(x, top));                   
                 }
             }
+
+            cache.Add(hash, points);
+        }
+
+        public IEnumerator<Point> GetEnumerator()
+        {
+            return cache.Values.SelectMany(x => x).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 

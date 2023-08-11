@@ -1,5 +1,6 @@
-﻿DesignPatterns.Adapter.Point.Exe();
-
+﻿DesignPatterns.Adapter.DIAdapter.Program.Exe();
+/*DesignPatterns.Adapter.Exe.Exec();*/
+/*DesignPatterns.Adapter.Execution.Exe();*/
 /*DesignPatterns.Prototype.SerialisationCopying.Exe();*/
 /*DesignPatterns.Prototype.InterfaceCopying.Exe();*/
 /*DesignPatterns.Factories.HotDrinks.Exe();*/
