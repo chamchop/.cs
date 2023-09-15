@@ -1,4 +1,8 @@
-﻿DesignPatterns.Decorator.AdapterDecorator.Exe();
+﻿/*DesignPatterns.Decorator.DecoratorDI.Print();*/
+/*DesignPatterns.Decorator.StaticDecorator.Print();*/
+/*DesignPatterns.Decorator.DecoratorCycles.Print();
+DesignPatterns.Decorator.DynamicComposition.Print();
+DesignPatterns.Decorator.AdapterDecorator.Exe();*/
 
 /*DesignPatterns.Singleton.SingletonDatabase.Exe();
 DesignPatterns.Singleton.Monostate.Exe();
