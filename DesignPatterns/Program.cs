@@ -1,4 +1,7 @@
-﻿DesignPatterns.Proxy.ProtectionProxy.Print();
+﻿
+/*DesignPatterns.Proxy.ValueProxy.Print();*/
+/*DesignPatterns.Proxy.PropertyProxy.Print();
+DesignPatterns.Proxy.ProtectionProxy.Print();*/
 
 /*DesignPatterns.Flyweight.BetterFormattedText.Print();*/
 
