@@ -18,3 +18,4 @@ C:\Programming\CSharp\Advanced\DesignPatterns\obj\Debug\net6.0\DesignPatterns.cs
 C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\Singleton\Capitals.txt
 C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\MoreLinq.dll
 C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\nunit.framework.dll
+C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\dotMemory.Unit.dll

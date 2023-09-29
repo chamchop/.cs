@@ -1,4 +1,8 @@
-﻿/*DesignPatterns.Decorator.DecoratorDI.Print();*/
+﻿DesignPatterns.Proxy.ProtectionProxy.Print();
+
+/*DesignPatterns.Flyweight.BetterFormattedText.Print();*/
+
+/*DesignPatterns.Decorator.DecoratorDI.Print();*/
 /*DesignPatterns.Decorator.StaticDecorator.Print();*/
 /*DesignPatterns.Decorator.DecoratorCycles.Print();
 DesignPatterns.Decorator.DynamicComposition.Print();

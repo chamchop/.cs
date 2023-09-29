@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CweiKq/PdESUYhk720ZLjXsjK2rUremYEZatYfQlOaB+ZzWtazZMTqt0hyfKSL0NsKz6iV6R+/b86c9P/ynV/Q==",
+  "dgSpecHash": "8lxO8vPz1ssbEIut4N8miWpOsd282BMF4u6roe1HVdtkwv0SfL3ObGSTmmNXZfGwNWEU+m9RFIA/RXBTWuLUMQ==",
   "success": true,
   "projectFilePath": "C:\\Programming\\CSharp\\Advanced\\DesignPatterns\\DesignPatterns.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Capta\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\jetbrains.dotmemoryunit\\3.2.20220510\\jetbrains.dotmemoryunit.3.2.20220510.nupkg.sha512",
     "C:\\Users\\Capta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Capta\\.nuget\\packages\\morelinq\\3.4.2\\morelinq.3.4.2.nupkg.sha512",
     "C:\\Users\\Capta\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",

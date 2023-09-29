@@ -1,4 +1,6 @@
-﻿// Misc
+﻿Console.WriteLine("foo");
+
+// Misc
 
 /*Advanced.Misc.Printing.Print();*/
 
