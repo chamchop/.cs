@@ -1,4 +1,7 @@
-﻿
+﻿DesignPatterns.Chain.MethodChain.Print();
+
+/*DesignPatterns.Proxy.BitFragging.Print();*/
+/*DesignPatterns.Proxy.ViewModel.Print();*/
 /*DesignPatterns.Proxy.ValueProxy.Print();*/
 /*DesignPatterns.Proxy.PropertyProxy.Print();
 DesignPatterns.Proxy.ProtectionProxy.Print();*/

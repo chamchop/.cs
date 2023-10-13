@@ -9,6 +9,7 @@
       "DesignPatterns/1.0.0": {
         "dependencies": {
           "Autofac": "7.0.1",
+          "JetBrains.Annotations": "2023.2.0",
           "JetBrains.dotMemoryUnit": "3.2.20220510",
           "NUnit": "3.13.3",
           "morelinq": "3.4.2"
@@ -25,6 +26,14 @@
           "lib/net6.0/Autofac.dll": {
             "assemblyVersion": "7.0.1.0",
             "fileVersion": "7.0.1.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/2023.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "4242.42.42.42",
+            "fileVersion": "2023.2.0.0"
           }
         }
       },
@@ -76,6 +85,13 @@
       "sha512": "sha512-J9Iz0Q+YU3uf82i8Lee0NpQOlRYfwHxwVV26jdG3zH3LFE5Y9Rx97Mju7Nswwzh/C7kVJALkTL860Y7e+mcLaw==",
       "path": "autofac/7.0.1",
       "hashPath": "autofac.7.0.1.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2023.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dvO//8aLmLRsCVVgoc/7qBqi2/y4BTyRcg20LCBWtK4n6E9Um06Zp7jF1n0hOE+yqBHwcrDzAjWvCaM3qH8flg==",
+      "path": "jetbrains.annotations/2023.2.0",
+      "hashPath": "jetbrains.annotations.2023.2.0.nupkg.sha512"
     },
     "JetBrains.dotMemoryUnit/3.2.20220510": {
       "type": "package",

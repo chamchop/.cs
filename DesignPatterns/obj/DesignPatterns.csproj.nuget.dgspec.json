@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2023.2.0, )"
+            },
             "JetBrains.dotMemoryUnit": {
               "target": "Package",
               "version": "[3.2.20220510, )"
