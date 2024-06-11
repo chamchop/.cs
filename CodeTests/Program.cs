@@ -16,5 +16,12 @@ string[] inputlcp = { "testing", "testament", "testing", "taste" };
 Console.WriteLine(lcp.LongestCommonPrefix(inputlcp));
 Console.WriteLine(lcp.LongestCommonPrefix(inputlcp));*/
 
-var pally = new Palindrome();
-Console.WriteLine(pally.isPalindrome(121));
+/*var pally = new Palindrome();
+Console.WriteLine(pally.isPalindrome(121));*/
+
+var vp = new ValidParentheses();
+string[] vpinput = { "{]" };
+foreach(string test in vpinput)
+{
+    Console.WriteLine(vp.IsValid(test));
+}
