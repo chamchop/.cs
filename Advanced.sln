@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{5DC94D6F-1ACE-44EB-BD71-2B0B3EE6E493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{D7AE9E90-C0C5-4D55-8BB2-26A6A543F358}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithm\Algorithms.csproj", "{D7AE9E90-C0C5-4D55-8BB2-26A6A543F358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

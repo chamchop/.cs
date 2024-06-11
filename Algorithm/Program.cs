@@ -20,7 +20,7 @@ Console.WriteLine(lcp.LongestCommonPrefix(inputlcp));*/
 Console.WriteLine(pally.isPalindrome(121));*/
 
 var vp = new ValidParentheses();
-string[] vpinput = { "{}" };
+string[] vpinput = { "{]" };
 foreach(string test in vpinput)
 {
     Console.WriteLine(vp.IsValid(test));

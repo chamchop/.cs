@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\CSharp\\Advanced\\Algorithm\\Algorithm.csproj",
-      "projectName": "Algorithm",
-      "projectPath": "C:\\Programming\\CSharp\\Advanced\\Algorithm\\Algorithm.csproj",
+      "projectUniqueName": "C:\\Programming\\CSharp\\Advanced\\Algorithm\\Algorithms.csproj",
+      "projectName": "Algorithms",
+      "projectPath": "C:\\Programming\\CSharp\\Advanced\\Algorithm\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\Capta\\.nuget\\packages\\",
       "outputPath": "C:\\Programming\\CSharp\\Advanced\\Algorithm\\obj\\",
       "projectStyle": "PackageReference",
