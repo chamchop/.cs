@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LX15ie6wEOq24KBse+GPdt3QmHpEN7VCVvEJ0OGfAB/WOBpQl1QwsudujS5Z1uB1j5cj/xCfEyBxx0aABuf6Dg==",
+  "dgSpecHash": "M6NNgCaszzkV2Bb7BH39lIdxvvnY232UWtMdLFcHvKLXrMZ8ehWevlJpD43jd46Zh3h9yyEhDRY4yVyRyuSfGw==",
   "success": true,
-  "projectFilePath": "C:\\Programming\\CSharp\\Advanced\\CodeTests\\Algorithms.csproj",
+  "projectFilePath": "C:\\Programming\\CSharp\\Advanced\\Advanced\\Algorithms\\Algorithms.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\CSharp\\Advanced\\CodeTests\\Algorithms.csproj",
+      "projectUniqueName": "C:\\Programming\\CSharp\\Advanced\\Advanced\\Algorithms\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "C:\\Programming\\CSharp\\Advanced\\CodeTests\\Algorithms.csproj",
+      "projectPath": "C:\\Programming\\CSharp\\Advanced\\Advanced\\Algorithms\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\Capta\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\CSharp\\Advanced\\CodeTests\\obj\\",
+      "outputPath": "C:\\Programming\\CSharp\\Advanced\\Advanced\\Algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

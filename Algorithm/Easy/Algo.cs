@@ -1,6 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections;
+using System.Text;
 
-namespace Algorithm.Easy
+namespace Algorithms.Easy
 {
     internal class TwoSum
     {
@@ -50,7 +52,6 @@ namespace Algorithm.Easy
             return new int[] { };
         }
     }
-
     internal class RomanToInteger
     {
         /*  Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -111,7 +112,6 @@ namespace Algorithm.Easy
                 'M' => 1000,
                 _ => throw new ArgumentException()
             };
-
 
         public int solution(string s)
         {
@@ -198,10 +198,9 @@ namespace Algorithm.Easy
             return ans.ToString();
         }
     }
-
     internal class Palindrome
     {
-        bool isPalindrome(int x)
+        public bool isPalindrome(int x)
         {
             if (x < 0)
                 return false;
@@ -217,6 +216,42 @@ namespace Algorithm.Easy
             }
 
             return (reversed == x);
+        }
+    }
+    internal class ValidParentheses
+    {
+        /*  Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+            An input string is valid if:
+            Open brackets must be closed by the same type of brackets.
+            Open brackets must be closed in the correct order.
+            Every close bracket has a corresponding open bracket of the same type.
+
+            Example 1:
+            Input: s = "()"
+            Output: true
+            Example 2:
+            Input: s = "()[]{}"
+            Output: true
+            Example 3:
+            Input: s = "(]"
+            Output: false   */
+
+        public bool IsValid(string s)
+        {
+            Stack<char> stack = new Stack<char>();
+            foreach(char c in s)
+                if (c == '(' || c == '{' || c == '[')
+                    stack.Push(c);
+                else
+                {
+                    if (stack.Count == 0 || 
+                        (c == ')' && stack.Peek() != '(') || 
+                        (c == '}' && stack.Peek() != '{') || 
+                        (c == ']' && stack.Peek() != '[')) 
+                            return false;
+                    stack.Pop();
+                }
+            return stack.Count == 0;
         }
     }
 }
