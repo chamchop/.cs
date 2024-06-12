@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Text;
+﻿using System.Text;
 
 namespace Algorithms.Easy
 {
@@ -239,19 +237,66 @@ namespace Algorithms.Easy
         public bool IsValid(string s)
         {
             Stack<char> stack = new Stack<char>();
-            foreach(char c in s)
+            foreach (char c in s)
                 if (c == '(' || c == '{' || c == '[')
                     stack.Push(c);
                 else
                 {
-                    if (stack.Count == 0 || 
-                        (c == ')' && stack.Peek() != '(') || 
-                        (c == '}' && stack.Peek() != '{') || 
-                        (c == ']' && stack.Peek() != '[')) 
-                            return false;
+                    if (stack.Count == 0 ||
+                        (c == ')' && stack.Peek() != '(') ||
+                        (c == '}' && stack.Peek() != '{') ||
+                        (c == ']' && stack.Peek() != '['))
+                        return false;
                     stack.Pop();
                 }
             return stack.Count == 0;
+        }
+    }
+    internal class MergeSortedLists
+    {
+        /*  You are given the heads of two sorted linked lists list1 and list2.
+            Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+            Return the head of the merged linked list.
+
+            Example 1:
+            Input: list1 = [1,2,4], list2 = [1,3,4]
+            Output: [1,1,2,3,4,4]
+
+            Example 2:
+            Input: list1 = [], list2 = []
+            Output: []  */
+
+        public class ListNode
+        {
+            public int val;
+            public ListNode next;
+
+            public ListNode(int val = 0, ListNode next = null)
+            {
+                this.val = val;
+                this.next = next;
+            }
+        }
+
+        public ListNode MergeTwoLists(ListNode list1, ListNode list2)
+        {
+            ListNode dummy = new ListNode();
+            ListNode cur = dummy;
+
+            while (list1 != null && list2 != null)
+            {
+                if (list1.val < list2.val)
+                {
+                    cur.next = list1;
+                    list1 = list1.next;
+                }
+                cur = cur.next;
+            }
+
+            if (list1 != null || list2 != null)
+                cur.next = list1 ?? list2;
+
+            return dummy.next;
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Algorithms.Easy;
-using System;
 
 /*var ts = new TwoSum();
 int[] inputts = { 1, 2, 3, 4, 5 };
@@ -20,9 +19,10 @@ Console.WriteLine(lcp.LongestCommonPrefix(inputlcp));*/
 /*var pally = new Palindrome();
 Console.WriteLine(pally.isPalindrome(121));*/
 
-var vp = new ValidParentheses();
+/*var vp = new ValidParentheses();
 string[] vpinput = { "{}" };
 foreach(string test in vpinput)
 {
     Console.WriteLine(vp.IsValid(test));
-}
+}*/
+
