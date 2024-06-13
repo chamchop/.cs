@@ -26,3 +26,14 @@ foreach(string test in vpinput)
     Console.WriteLine(vp.IsValid(test));
 }*/
 
+/*var rd = new RemoveDuplicate();
+int[] inputrd = { 1,1,2,2,2,3,4,5,5,5 };
+Console.WriteLine(rd.RemoveDuplicates(inputrd));*/
+
+/*var re = new RemoveElement();
+int[] inputre = { 1,1,2,2,2,3,4,5,5,5 };
+Console.WriteLine(re.solution(inputre, 2));*/
+
+var soi = new StringOccurrenceIndex();
+Console.WriteLine(soi.StrStr("butamIsad", "xer"));
+Console.WriteLine(soi.StrStr("butamIsad", "sad"));

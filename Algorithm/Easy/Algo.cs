@@ -1,4 +1,7 @@
-﻿using System.Text;
+﻿using Microsoft.VisualBasic;
+using System.Collections.Generic;
+using System;
+using System.Text;
 
 namespace Algorithms.Easy
 {
@@ -297,6 +300,78 @@ namespace Algorithms.Easy
                 cur.next = list1 ?? list2;
 
             return dummy.next;
+        }
+    }
+    internal class RemoveDuplicate
+    {
+        /*  Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. 
+            The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+            Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
+
+            Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. 
+            The remaining elements of nums are not important as well as the size of nums.
+            Return k.
+            Input: nums = [1,1,2]
+            Output: 2, nums = [1,2,_]
+            Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+            It does not matter what you leave beyond the returned k (hence they are underscores).   */
+
+        public int RemoveDuplicates(int[] nums)
+        {
+            int j = 1;
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (nums[i] != nums[i - 1])
+                {
+                    nums[j] = nums[i];
+                    j++;
+                }
+            }
+            return j;
+        }
+    }
+    internal class RemoveElement
+    {
+        /*  Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. 
+            The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+            Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things:
+
+            Change the array nums such that the first k elements of nums contain the elements which are not equal to val. 
+            The remaining elements of nums are not important as well as the size of nums.
+            Return k.
+
+            Example 1:
+            Input: nums = [3,2,2,3], val = 3
+            Output: 2, nums = [2,2,_,_]
+            Explanation: Your function should return k = 2, with the first two elements of nums being 2.
+            It does not matter what you leave beyond the returned k (hence they are underscores).   */
+
+        public int solution(int[] nums, int val)
+        {
+            int count = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == val)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+    }
+    internal class StringOccurrenceIndex
+    {
+        /*  Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+            Example 1:
+            Input: haystack = "sadbutsad", needle = "sad"
+            Output: 0
+            Explanation: "sad" occurs at index 0 and 6.
+            The first occurrence is at index 0, so we return 0. */
+
+        public int StrStr(string haystack, string needle)
+        {
+            var str = haystack.IndexOf(needle);
+            return str;
         }
     }
 }
