@@ -20,3 +20,4 @@ C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\MoreLinq.dll
 C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\nunit.framework.dll
 C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\dotMemory.Unit.dll
 C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Programming\CSharp\Advanced\DesignPatterns\bin\Debug\net6.0\System.Reactive.dll

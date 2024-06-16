@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RLE7m1UIgBLdYRNQ/iiUpbyj88wydOzDOMRZXxzWJzd1Z9hfc2sIFRTcbV0+MVb13pAlYriir0zz7AUH9A761A==",
+  "dgSpecHash": "GI7od+Aq+/rUoizFAaI/DVwpENpGT6h2KLaybUtfeHCgbRu5Vhoo5cV+KXhtTao5mCvsaET02cSRiipwyZKx+Q==",
   "success": true,
   "projectFilePath": "C:\\Programming\\CSharp\\Advanced\\DesignPatterns\\DesignPatterns.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,8 @@
     "C:\\Users\\Capta\\.nuget\\packages\\morelinq\\3.4.2\\morelinq.3.4.2.nupkg.sha512",
     "C:\\Users\\Capta\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\Capta\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
-    "C:\\Users\\Capta\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\Capta\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }

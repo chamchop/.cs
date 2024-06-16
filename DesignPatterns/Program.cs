@@ -35,3 +35,6 @@ DesignPatterns.Singleton.AmbientContext.Exe();*/
 DesignPatterns.Factories.Abstract.Exe();*/
 
 /*DesignPatterns.Builder.Faceted.Execution.Exe();*/
+
+DesignPatterns.Mediator.Exe.Print();
+DesignPatterns.Mediator.Exec.Exe();
